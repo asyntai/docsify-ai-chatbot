@@ -1,0 +1,40 @@
+{
+  "name": "docsify-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Add the Asyntai AI chat assistant to your docsify site. It answers visitor questions from your own docs, in 80+ languages.",
+  "main": "./src/docsify-ai-chatbot.js",
+  "browser": "./src/docsify-ai-chatbot.js",
+  "unpkg": "./src/docsify-ai-chatbot.js",
+  "jsdelivr": "./src/docsify-ai-chatbot.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "docsify",
+    "docsify-plugin",
+    "chatbot",
+    "ai",
+    "ai-chatbot",
+    "chat",
+    "documentation",
+    "live-chat",
+    "customer-support",
+    "asyntai"
+  ],
+  "homepage": "https://asyntai.com/documentation/integrations/docsify/",
+  "bugs": {
+    "url": "https://github.com/asyntai/docsify-ai-chatbot/issues",
+    "email": "hello@asyntai.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyntai/docsify-ai-chatbot.git"
+  },
+  "author": "Asyntai <hello@asyntai.com> (https://asyntai.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/test_plugin.js"
+  }
+}
